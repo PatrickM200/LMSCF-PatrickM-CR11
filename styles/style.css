@@ -1,0 +1,182 @@
+.container-fluid {
+  background-color: black;
+  text-align: center;
+  margin: auto;
+}
+
+.chead {
+  width: 80%;
+  padding: 15px;
+  margin: auto;
+  background-color: silver;
+  text-align: center;
+  border: 2px solid grey;
+}
+
+.scheda {
+  padding: 8px;
+  margin: 2px;
+  margin: auto;
+  background-color: silver;
+  text-align: center;
+  border: 2px solid grey;
+}
+
+.scheda:hover {
+  background-color: grey;
+  color: black;
+}
+
+.foglio {
+  width: 80%;
+  padding: 14px;
+  margin: auto;
+  background-color: silver;
+  text-align: center;
+  border: 5px solid grey;
+}
+
+table {
+  width: 90%;
+  text-align: justify;
+}
+
+label {
+  font-weight: bold;
+}
+
+input {
+  background-color: white;
+  width: 400px;
+  padding: 5px;
+  margin: 2px;
+  border-radius: 7px;
+}
+
+.btn {
+  width: 150px !important;
+  background-color: silver !important;
+  color: black !important;
+  font-weight: bold !important;
+  margin: 5px !important;
+  border-width: 2px !important;
+  border-color: grey !important;
+}
+
+.btn-sm {
+  width: 150px !important;
+  background-color: silver !important;
+  color: black !important;
+  font-weight: bold !important;
+  margin: 5px !important;
+  border-width: 2px !important;
+  border-color: grey !important;
+}
+
+.button-x {
+  width: 150px;
+  margin: 5px;
+  background-color: silver;
+  color: black;
+  border-color: grey;
+  border-width: 2px;
+  border-radius: 3px;
+}
+
+a:link a:visited {
+  color: grey;
+  text-decoration: none;
+}
+
+a:hover {
+  color: white;
+  text-decoration: none;
+}
+
+a:active {
+  color: grey;
+  text-decoration: none;
+}
+
+.photo {
+  height: 200px;
+}
+
+.cover {
+  height: 300px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.cover img {
+  height: 90%;
+}
+
+.mini-cover {
+  height: 200px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.mini-cover img {
+  height: 50%;
+}
+
+footer {
+  color: black;
+  text-align: center;
+  background-color: grey;
+  margin: 0px;
+  height: 200px;
+}
+
+footer h6 {
+  padding-top: 100px;
+}
+
+#map {
+  height: 90%;
+  margin: 0;
+  padding: 0;
+}
+
+.box {
+  position: relative;
+  text-align: center;
+  color: white;
+}
+
+.top-right {
+  position: absolute;
+  top: 8px;
+  right: 16px;
+}
+
+@-webkit-keyframes rainbow {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 25%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+@keyframes rainbow {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 25%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+.index-color {
+  color: white;
+}
+/*# sourceMappingURL=style.css.map */
